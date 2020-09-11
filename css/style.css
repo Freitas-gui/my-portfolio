@@ -219,7 +219,7 @@ button:focus {
   position: absolute;
   width: 100%;
   z-index: 9999;
-  background: #ffffff; }
+  background: #eeeeee; }
   .header_area .menu_nav {
     width: 100%; }
   .header_area .navbar {
@@ -348,9 +348,12 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.png) no-repeat top center;
-  background-position: center;
-  background-size: cover; }
+  background: url(../img/banner/logo-fundo.png) no-repeat top center;
+  background-size: 300px;
+  background-position: left;
+  background-color: #eeeeee;
+
+  }
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_right_img {
