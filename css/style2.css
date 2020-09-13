@@ -44,8 +44,9 @@ header .menu-principal .menu-nav > li a{
     color: #000000;
 }
 
-header .menu-principal .menu-nav > li a:active{
-    color: #20c997;
+header .menu-principal .menu-nav > li a:hover{
+    color: #00909f;
+    text-decoration: underline;
 }
 
 .header_area .navbar .nav .nav-item .nav-link {
