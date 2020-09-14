@@ -133,7 +133,7 @@ header .menu-principal .menu-nav > li a:hover{
 
 /*começo sobre*/
 .about_area{
-    padding-top: 85px;
+    padding-top: 80px;
 }
 .about_area .sobre-mim{
      font-size: 17px;
@@ -141,13 +141,26 @@ header .menu-principal .menu-nav > li a:hover{
 /*Fim do sobre*/
 
 /*Começo de habilidades*/
+
+.features_area{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
 .features_area .main_title{
     margin-bottom: 20px;
 }
 .features_area .feature_item{
     height: 24em;
     margin-bottom: 0;
-
+}
+.previous{
+    width: 2em;
+    margin-right: 200px;
+}
+.next{
+    width: 2em;
+    margin-left: 200px;
 }
 
 
