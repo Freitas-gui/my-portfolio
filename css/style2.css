@@ -1,3 +1,5 @@
+
+/*começo header*/
 .menu-principal{
     position: fixed;
         width: 100%;
@@ -127,8 +129,25 @@ header .menu-principal .menu-nav > li a:hover{
 
      }
 }
+/*Fim header*/
 
-
-#sobre{
-    height: 1000px;
+/*começo sobre*/
+.about_area{
+    padding-top: 85px;
 }
+.about_area .sobre-mim{
+     font-size: 17px;
+ }
+/*Fim do sobre*/
+
+/*Começo de habilidades*/
+.features_area .main_title{
+    margin-bottom: 20px;
+}
+.features_area .feature_item{
+    height: 24em;
+    margin-bottom: 0;
+
+}
+
+
