@@ -173,4 +173,31 @@ header .menu-principal .menu-nav > li a:hover{
     margin-left: 100px;
 }
 
+/*else {
+            $(".carousel-inner").parent().wrap('< id="carouselExampleControls" class="carousel slide" data-ride="carousel">');
+        }*/
 
+@media (max-width: 450px) {
+    .carousel-item {
+        position: relative;
+        display: inline-block;
+        align-items: center;
+        width: 100%;
+        backface-visibility: hidden;
+        perspective: 1000px;
+    }
+
+    .carousel-item .row {
+        display: inline-block;
+    }
+
+    .previous {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .next {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
