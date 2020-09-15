@@ -173,9 +173,6 @@ header .menu-principal .menu-nav > li a:hover{
     margin-left: 100px;
 }
 
-/*else {
-            $(".carousel-inner").parent().wrap('< id="carouselExampleControls" class="carousel slide" data-ride="carousel">');
-        }*/
 
 @media (max-width: 450px) {
     .carousel-item {
