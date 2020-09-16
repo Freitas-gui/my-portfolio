@@ -174,7 +174,7 @@ header .menu-principal .menu-nav > li a:hover{
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 1000px) {
     .carousel-item {
         position: relative;
         display: inline-block;
@@ -184,7 +184,7 @@ header .menu-principal .menu-nav > li a:hover{
         perspective: 1000px;
     }
 
-    .carousel-item .row {
+    .carousel-item{
         display: inline-block;
     }
 
