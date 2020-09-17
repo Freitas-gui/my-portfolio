@@ -1,6 +1,5 @@
-
-/*começo header*/
-.menu-principal{
+/*Start header*/
+.main-menu{
     position: fixed;
         width: 100%;
     background: white;
@@ -8,17 +7,17 @@
     top: 0;
 }
 
-header .menu-principal .container{
+header .main-menu .container{
     width: 100%;
     position: relative;
     padding: unset;
 }
 
-header .menu-principal .logo_h img , logo_h{
+header .main-menu .logo_h img , logo_h{
     width: 150px;
 }
 
-header .menu-principal .menu-navbar {
+header .main-menu .menu-navbar {
     display: inline-block;
     vertical-align: top;
     position: absolute;
@@ -26,13 +25,13 @@ header .menu-principal .menu-navbar {
     top: -10px;
     transform:rotate(0);
 }
-header .menu-principal .menu-nav{
+header .main-menu .menu-nav{
     display: inline-block;
     padding: 0;
     transform:rotate(0);
 }
 
-header .menu-principal .menu-nav > li{
+header .main-menu .menu-nav > li{
     display: inline;
     font: 500 14px/100px "Rubik", sans-serif;
     text-transform: uppercase;
@@ -41,12 +40,12 @@ header .menu-principal .menu-nav > li{
     transform:rotate(0);
 }
 
-header .menu-principal .menu-nav > li a{
+header .main-menu .menu-nav > li a{
     font-size: 20px;
     color: #000000;
 }
 
-header .menu-principal .menu-nav > li a:hover{
+header .main-menu .menu-nav > li a:hover{
     color: #00909f;
     text-decoration: underline;
 }
@@ -61,7 +60,7 @@ header .menu-principal .menu-nav > li a:hover{
 
 @media (max-width: 1420px){
 
-     header .menu-principal .menu-nav > li a{
+     header .main-menu .menu-nav > li a{
          font-size: 17px;
      }
  }
@@ -69,15 +68,15 @@ header .menu-principal .menu-nav > li a:hover{
 
 
 @media (max-width: 770px){
-    header .menu-principal .container{
-        height: 150px;
+    header .main-menu .container{
+        height: 100px;
         width: 100%;
         margin-right: unset;
         margin-left: unset;
         max-width: unset;
     }
 
-    header .menu-principal .logo_h img{
+    header .main-menu .logo_h img{
         width: 150px;
         display:inline-block;
         position: absolute;
@@ -86,20 +85,20 @@ header .menu-principal .menu-nav > li a:hover{
         left: 0;
         bottom: auto;
     }
-    header .menu-principal .menu-navbar{
+    header .main-menu .menu-navbar{
         font-size: 15px;
         right: 20px;
      }
-     header .menu-principal .menu-nav > li a{
+     header .main-menu .menu-nav > li a{
          font-size: 15px;
      }
 }
 
 @media (max-width: 620px){
-    header .menu-principal .logo_h img{
+    header .main-menu .logo_h img{
         top:20px
     }
-    header .menu-principal .menu-nav{
+    header .main-menu .menu-nav{
         display: block;
         height: 30px;
         margin-right: 20px;
@@ -107,44 +106,105 @@ header .menu-principal .menu-nav > li a:hover{
 }
 
 @media (max-width: 450px){
-    header .menu-principal .logo_h img{
+     header .main-menu .container {
+         height: 140px;
+     }
+    header .main-menu .logo_h img{
         top: 30px;
         left: 50%;
         transform: translateX(-50%);
     }
-    header .menu-principal .menu-navbar{
+    header .main-menu .menu-navbar{
         right: 0;
         width: 254px;
         left: 50%;
         transform: translateX(-50%);
         top: -25px;
     }
-    header .menu-principal .menu-nav{
+    header .main-menu .menu-nav{
         display: block;
         height: 90px;
         margin: 0 auto;
     }
-     header .menu-principal .menu-nav > ul{
+     header .main-menu .menu-nav > ul{
          font-size: 15px;
 
      }
 }
-/*Fim header*/
+/*End header*/
 
-/*começo sobre*/
-.about_area{
-    padding-top: 80px;
+/*Start home*/
+.home_banner_area {
+    position: relative;
+    z-index: 9;
+    background: url(../img/banner/logo-fundo.png) no-repeat top center;
+    background-size: 300px;
+    background-position: left;
+    background-color: #eeeeee;
 }
-.about_area .sobre-mim{
+@media (max-width:770px) {
+    .home_banner_area{
+        height: 42em;
+    }
+}
+
+
+@media (max-width:450px) {
+    .home_banner_area {
+    position: relative;
+    z-index: 9;
+    background: url(../img/banner/logo-fundo.png) no-repeat top center;
+    background-size: 300px;
+    background-position: left;
+    background-color: #eeeeee;
+    margin-bottom: -100px;
+    padding-bottom: 0;
+}
+
+}
+/*End home*/
+
+
+/*Start sobre*/
+.about_area{
+    z-index: 3;
+    padding-top: 80px;
+    background: linear-gradient(#eeeeee,#ffffff);
+}
+.about_area .about-me{
      font-size: 17px;
  }
-/*Fim do sobre*/
+@media (max-width:770px) {
+    .about_area{
+        padding-top: 120px;
+    }
+}
+@media (max-width: 450px){
+    .about_area .primary_btn{
+        display: none; !important;
+    }
+    .about_area{
+    }
+    .about-me h2{
+         font-size: 20px;
+     }
+    .about-me p{
+         font-size: 15px;
+     }
+    .about_area {
+        padding-bottom: 20px;
+        padding-top: 140px;
+        background: linear-gradient(#eeeeee,#ffffff);
+    }
 
-/*Começo de habilidades*/
+}
+
+/*End sobre*/
+
+/*Start habilidades*/
 
 .features_area{
-    padding-top: 100px;
-    padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .features_area .main_title{
@@ -196,5 +256,12 @@ header .menu-principal .menu-nav > li a:hover{
     .next {
         opacity: 0;
         pointer-events: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .features_area {
+        padding-top: 150px;
+
     }
 }
