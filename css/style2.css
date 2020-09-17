@@ -265,3 +265,16 @@ header .main-menu .menu-nav > li a:hover{
 
     }
 }
+
+
+
+
+.info-project{
+    color: black;
+    background: #CCCCCC;
+    border-radius: 0 0 10px 10px;
+}
+
+.info-project-details {
+    display: none;!important;
+}
