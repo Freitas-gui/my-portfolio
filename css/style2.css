@@ -268,13 +268,21 @@ header .main-menu .menu-nav > li a:hover{
 
 
 
+.portfolio_area{
+    padding-top: 120px;
+}
 
 .info-project{
     color: black;
-    background: #CCCCCC;
-    border-radius: 0 0 10px 10px;
+    background: linear-gradient(#1f71ee, #3b4c9a);
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
 }
 
-.info-project-details {
-    display: none;!important;
+.description{
+    text-align: left;
+}
+
+.modal-dialog {
+    max-width: 800px;
 }
