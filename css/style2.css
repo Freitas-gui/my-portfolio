@@ -274,9 +274,13 @@ header .main-menu .menu-nav > li a:hover{
 
 .info-project{
     color: black;
-    background: linear-gradient(#1f71ee, #3b4c9a);
+    background: linear-gradient(#6f91fe, #1f71ee);
     border-radius: 10px 10px 10px 10px;
     text-align: center;
+}
+
+.info-project p{
+    margin-left: 10px;
 }
 
 .description{
@@ -284,5 +288,10 @@ header .main-menu .menu-nav > li a:hover{
 }
 
 .modal-dialog {
-    max-width: 800px;
+    max-width: 600px;
+}
+
+.modal-footer{
+    padding-top: 5px;
+    margin: 0;
 }
