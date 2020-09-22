@@ -267,20 +267,23 @@ header .main-menu .menu-nav > li a:hover{
 }
 
 
-
 .portfolio_area{
     padding-top: 120px;
 }
 
+.single_portfolio:hover .overlay{
+    border-radius: 10px 10px 10px 10px;
+}
+
 .info-project{
     color: black;
-    background: linear-gradient(#6f91fe, #1f71ee);
+    background: linear-gradient(#e0e0e0, #ebebeb);
     border-radius: 10px 10px 10px 10px;
     text-align: center;
 }
 
-.info-project p{
-    margin-left: 10px;
+.info-project p , .info-project h2{
+    padding: 10px;
 }
 
 .description{
