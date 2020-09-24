@@ -109,7 +109,7 @@ button:focus {
 ============================================================================================ */
 .main_title {
   text-align: center;
-  margin-bottom: 100px; }
+  margin-bottom: 15px; }
   @media (max-width: 1199px) {
     .main_title {
       margin-bottom: 50px; } }
@@ -2750,11 +2750,8 @@ h6 {
   width: auto !important; }
 
 .testi_item {
-  padding: 50px 55px;
-  margin-bottom: 200px;
-  margin-left: 10px;
-  margin: 0px 10px 80px;
-  box-shadow: 0px 15px 30px 0px rgba(221, 221, 221, 0.3);
+  padding: 5px 5px;
+  box-shadow: 0px 5px 5px 0px rgba(221, 221, 221, 0.3);
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
