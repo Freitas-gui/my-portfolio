@@ -302,3 +302,34 @@ header .main-menu .menu-nav > li a:hover{
 
 /* Start YouTube */
 
+
+.posts{
+    height: 400px;
+    margin: 0;
+}
+
+.posts .col{
+    width: 35em;
+    margin: 0;
+    max-width: 80%;
+}
+.tumb > a{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.testi_text{
+    position: relative;
+    margin: 0 auto;
+    width: 24em;
+    text-align: justify;
+}
+
+ .owl-carousel .owl-item  {
+     margin: 3px;
+ }
+
+.owl-dots{
+    margin-top: -23em;
+}

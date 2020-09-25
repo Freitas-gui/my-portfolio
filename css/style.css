@@ -2750,6 +2750,7 @@ h6 {
   width: auto !important; }
 
 .testi_item {
+  display: inline;
   padding: 5px 5px;
   box-shadow: 0px 5px 5px 0px rgba(221, 221, 221, 0.3);
   -webkit-transition: all 0.4s ease 0s;
