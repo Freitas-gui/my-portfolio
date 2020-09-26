@@ -168,7 +168,7 @@ header .main-menu .menu-nav > li a:hover{
 /*Start sobre*/
 .about_area{
     z-index: 3;
-    padding-top: 80px;
+    padding-top: 120px;
     background: linear-gradient(#eeeeee,#ffffff);
 }
 .about_area .about-me{
@@ -308,11 +308,19 @@ header .main-menu .menu-nav > li a:hover{
     margin: 0;
 }
 
-.posts .col{
+.post{
     width: 35em;
     margin: 0;
     max-width: 80%;
 }
+
+.post:hover{
+    box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+    background: #fff;
+
+}
+
+
 .tumb > a{
     position: relative;
     margin: 0 auto;
@@ -331,5 +339,13 @@ header .main-menu .menu-nav > li a:hover{
  }
 
 .owl-dots{
-    margin-top: -23em;
+    margin-top: 2em;
+}
+
+.owl-carousel .owl-stage-outer {
+    max-height: 530px;
+}
+
+#youtube{
+    padding-top: 120px;
 }
