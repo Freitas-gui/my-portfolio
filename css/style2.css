@@ -209,8 +209,8 @@ header .main-menu .menu-nav > li a:hover{
 
 
 .features_area .feature_item{
-    height: 24em;
-    margin-bottom: 0;
+    height: 25em;
+    margin: 2em 0;
 }
 .carousel-control-prev{
     width: 50px;
