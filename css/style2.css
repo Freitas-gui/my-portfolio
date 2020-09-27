@@ -389,4 +389,25 @@ header .main-menu .menu-nav > li a:hover{
     #youtube{
     padding-top: 150px;
     }
+
+    .main_title {
+        margin-bottom: 20px;
+    }
+
+    .post:hover{
+        box-shadow: none;
+        background: none;
+    }
+
+    .capa{
+        width: 160px;
+        height: 130px
+    }
+
+    .testi_item .testi_text {
+        margin-top: 20px;
+    }
+
+
+
 }
